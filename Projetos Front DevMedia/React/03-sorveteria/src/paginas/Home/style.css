@@ -1,0 +1,123 @@
+.secao-banner {
+    height: 90vh;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/assets/banner-home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(249, 219, 121);
+  }
+  
+  .texto-banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 30px;
+  }
+  
+  .texto-banner h1 {
+    font-size: 100px;
+    color: white;
+    text-shadow: 3px 5px 2px #474747;
+  }
+  
+  .card-container {
+    display: flex;
+  }
+
+  .image-card {
+    width: 50%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .text-card {
+    width: 50%;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-card h2 {
+    font-size: 40px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .text-card spam {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 14px;
+  }
+
+  .text-card p {
+    padding: 0 100px;
+    line-height: 26px;
+    margin: 30px 0;
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .text-card p {
+    padding: 0px 50px
+    }
+ }
+ 
+ @media screen and (max-width: 768px){
+ 
+   .texto-banner h1 {
+     font-size: 60px;
+   }
+ 
+   .secao-sabores {
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   .secao-sabores img {
+     width: 100%;
+   }
+ 
+   .text-card {
+     width: 100%;
+     padding: 100px 10px;
+     text-align: center;
+   }
+ 
+   .secao-eventos {
+     flex-direction: column-reverse;
+     align-items: center;
+   }
+ 
+   .secao-eventos img {
+     width: 100%;
+   }
+ 
+   .secao-sobre {
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   .secao-sobre img {
+     width: 100%;
+   }
+ }
+ 
+ @media screen and (max-width: 425px){
+   .texto-banner h1 {
+     font-size: 40px;
+   }
+ 
+   .texto-secao-nossos-eventos h2,
+   .texto-secao-nossos-sabores h2,
+   .texto-secao-sobre-nos h2 {
+   line-height: 40px;
+   }
+ }

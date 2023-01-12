@@ -1,0 +1,8 @@
+new Date()
+new Date
+getTime()
+dataEvento.getTime()
+diferenca
+segundos
+minutos
+horas
