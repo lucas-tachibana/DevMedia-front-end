@@ -1,17 +1,4 @@
-import React from 'react';
+let nomes = "Mateus Ana Lúcia Otávio";
 
- export default function BotaoAlert(props) {
-  function enviarAlert () {
-    alert(props.mensagem);
-  }
-
-  return(
-    <div>
-      <button  >
-        
-digite
-
-      </button>
-    </div>
-  );
-}
+console.log(nomes.substr(0,6));
+console.log(nomes.substr(11,5))
